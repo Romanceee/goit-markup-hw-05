@@ -526,7 +526,7 @@ body {
 }
 
 .modal-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
     top: 0;
     left: 0;
@@ -583,14 +583,14 @@ body {
     border: none;
 }
 
-.close-button .close-icon,
-.close-button .close-icon {
+.close-button:hover .close-icon,
+.close-button:focus .close-icon {
     fill: #ffffff;
 }
 
 .close-icon {
-        width: 24px;
-            height: 24px;
+        width: 8px;
+            height: 8px;
             fill: #2e2f42;
             transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -603,7 +603,6 @@ body {
         text-align: center;
         color: #2e2f42;
         margin-bottom: 16px;
-
 }
 
 .modal-group {
@@ -691,7 +690,7 @@ body {
 
 }
 
-.checkbox-input:checked+.privacy-label .custom-checkbox {
+.checkbox-input:checked+.policy-label .custom-checkbox {
     background-image: url("/images/icons.svg#icon-check");
     background-repeat: no-repeat;
     background-position: center;
